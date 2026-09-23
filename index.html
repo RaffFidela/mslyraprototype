@@ -45,7 +45,7 @@
                     </p>
                     <div class="cta-row">
                         <a class="btn btn-primary" href="#mission">Learn More</a>
-                        <a class="btn btn-secondary" href="#act">Join the Movement</a>
+                        <a class="btn btn-secondary join-button" href="login.html">Join the Movement</a>
                     </div>
                     <ul class="mini-stats" aria-label="Key STEM equality facts">
                         <li><strong>1</strong><span>Future begins in the classroom</span></li>
@@ -177,14 +177,6 @@
         </div>
     </footer>
 
-    <script>
-        const themeToggle = document.getElementById('theme-toggle');
-        const applyTheme = () => {
-            document.body.classList.toggle('light-mode', themeToggle.checked);
-        };
-
-        themeToggle.addEventListener('change', applyTheme);
-        applyTheme();
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

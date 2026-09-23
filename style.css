@@ -540,6 +540,22 @@ img {
     color: var(--dark-text);
 }
 
+.login-brand:hover {
+    color: var(--primary);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -563,6 +579,14 @@ img {
   margin: 2em;
   color: rgb(255, 255, 255);
   font-size: 1.2em;
+}
+
+.form-message {
+    margin: 0 0 8px;
+    color: #fda4af;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5;
 }
 
 .field {

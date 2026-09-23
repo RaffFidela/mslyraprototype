@@ -22,7 +22,14 @@
                 <a href="#impact">Impact</a>
                 <a href="#act">Take Action</a>
             </nav>
-            <a class="nav-cta" href="#act">Support Equality</a>
+            <div class="header-actions">
+                <!-- From Uiverse.io by alexruix -->
+                <label class="switch" aria-label="Toggle dark mode">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+                <a class="nav-cta" href="#act">Support Equality</a>
+            </div>
         </div>
     </header>
 
@@ -169,5 +176,15 @@
             <p>Building equality through education and opportunity.</p>
         </div>
     </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const applyTheme = () => {
+            document.body.classList.toggle('light-mode', themeToggle.checked);
+        };
+
+        themeToggle.addEventListener('change', applyTheme);
+        applyTheme();
+    </script>
 </body>
 </html>

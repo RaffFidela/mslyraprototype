@@ -16,9 +16,3 @@ if (themeToggle) {
     themeToggle.addEventListener('change', applyTheme);
 }
 
-const loginForm = document.querySelector('.form');
-if (loginForm) {
-    loginForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-    });
-}

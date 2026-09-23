@@ -45,7 +45,7 @@
                     </p>
                     <div class="cta-row">
                         <a class="btn btn-primary" href="#mission">Learn More</a>
-                        <a class="btn btn-secondary join-button" href="login.html">Join the Movement</a>
+                        <a class="btn btn-secondary join-button" href="login.php">Join the Movement</a>
                     </div>
                     <ul class="mini-stats" aria-label="Key STEM equality facts">
                         <li><strong>1</strong><span>Future begins in the classroom</span></li>
